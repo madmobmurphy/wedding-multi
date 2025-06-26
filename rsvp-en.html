@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RSVP – Melanie &amp; Sebastian</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="rsvp-page">
+  <h1>We're excited to see you!</h1>
+  <p>Please RSVP by 15&nbsp;September&nbsp;2025</p>
+  <form class="rsvp-form" action="https://formspree.io/f/yourEndpoint" method="POST">
+    <label>Name
+      <input type="text" name="name" required>
+    </label>
+    <label>Meal
+      <select name="meal" required>
+        <option value="" disabled selected>Please choose…</option>
+        <option>Vegetarian lasagne</option>
+        <option>Butter curry with vegetables and rice</option>
+        <option>Ravioli with pesto cream sauce</option>
+      </select>
+    </label>
+    <label>Do we need to be aware of anything special?
+      <textarea name="notes" rows="4"></textarea>
+    </label>
+    <div class="btn-container">
+      <button class="btn" type="submit">Send</button>
+    </div>
+  </form>
+  <p class="btn-container">
+    <a class="btn btn-back" href="index-en.html">Back</a>
+  </p>
+</section>
+</body>
+</html>
