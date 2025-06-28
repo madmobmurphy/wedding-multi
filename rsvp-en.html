@@ -8,22 +8,52 @@
 </head>
 <body>
 <section class="rsvp-page">
-  <h1>We're excited to see you!</h1>
-  <p>Please RSVP by 15&nbsp;September&nbsp;2025</p>
-  <form class="rsvp-form" action="https://formspree.io/f/yourEndpoint" method="POST">
+  <h1>We’re excited to see you!</h1>
+  <p>Please let us know by 15 September 2025 whether you'll be joining us. Thank you!</p>
+  <form class="rsvp-form" action="https://formspree.io/f/xyzjladv" method="POST">
     <label>Name
       <input type="text" name="name" required>
     </label>
-    <label>Do we need to be aware of any food allergies?
+    <label>Will you celebrate with us?
+      <select name="attendance" required>
+        <option value="" disabled selected>Please choose…</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </label>
+    <label>Are there any allergies we should be aware of?
       <textarea name="notes" rows="4"></textarea>
     </label>
     <div class="btn-container">
-      <button class="btn" type="submit">Send</button>
+      <button class="btn" type="submit">Submit</button>
     </div>
   </form>
-  <p class="btn-container">
-    <a class="btn btn-back" href="index-en.html">Back</a>
-  </p>
+  <div class="btn-container">
+    <br><br>
+    If you plan to stay overnight in Enschede,<br>
+    here are a few accommodation options for you:<br>
+    <a class="btn btn-back" 
+       href="https://www.fletcherhotelenschede.nl/" 
+       target="_blank" rel="noopener noreferrer">
+       Fletcher Hotel Enschede
+    </a>
+    <a class="btn btn-back" 
+       href="https://www.booking.com/searchresults.de.html?label=duc511jc-1DCAMoqQFCCGVuc2NoZWRlSDNYA2ipAYgBAZgBB7gBF8gBDNgBA-gBAYgCAagCA7gCztmBwwbAAgHSAiQzMzE5ZWNkZi01OTUyLTQ4MDYtYmEwNy0xZmI1NGU0NDRhMGbYAgTgAgE&sid=9ffa27ce4128f7d5e991392e185198b9&aid=390156&ss=Enschede&ssne=Enschede&ssne_untouched=Enschede&efdco=1&lang=de&sb=1&src_elem=sb&dest_id=-2144209&dest_type=city&checkin=2025-10-06&checkout=2025-10-07&group_adults=2&no_rooms=1&group_children=0&sb_travel_purpose=leisure&order=price&force_referer=" 
+       target="_blank" rel="noopener noreferrer">
+       Hotel List (Booking.com)
+    </a>
+    <a class="btn btn-back" 
+       href="https://www.airbnb.de/s/Enschede-City/homes?refinement_paths%5B%5D=%2Fhomes&place_id=ChIJ78ZZynUUuEcREsMLR8KmEXc&location_bb=QlDlIUDczjpCUN1vQNxilw%3D%3D&acp_id=af195cf8-264c-4ab1-b921-8d00866d132d&date_picker_type=calendar&checkin=2025-10-06&checkout=2025-10-07&source=structured_search_input_header&search_type=autocomplete_click" 
+       target="_blank" rel="noopener noreferrer">
+       Accommodation List (Airbnb)
+    </a>
+    <br><br>
+    <a href="index-en.html" class="btn btn-back">Back</a>
+  </div>
 </section>
+
+<footer>
+  <p>We say yes! ♡ Wij zeggen ja!</p>
+</footer>
 </body>
 </html>
